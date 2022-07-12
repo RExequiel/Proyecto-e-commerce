@@ -20,3 +20,20 @@
     flex-direction: column;
     margin: 0 1rem;
 }
+
+@media screen and (max-width:650px){
+    .producto{
+        flex-direction: column;
+    }
+    .producto__img{
+        width: 100%;
+
+    }
+    .producto__caracteristica{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .container__title{
+        flex-direction: column;
+    }
+}

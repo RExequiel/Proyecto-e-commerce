@@ -54,3 +54,16 @@ main form input{
     margin: .5rem;
     width: 96%;
 }
+
+@media screen and (max-width:650px){
+    .agregar-producto__img{
+        flex-direction: column;
+    }
+    .agregar-producto__img--arrastrar{
+        width: 100%;
+        margin: 0;
+    }
+    .agregar-producto__img--seleccionar{
+        margin: 0;
+    }
+}

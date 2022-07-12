@@ -30,7 +30,7 @@ html {
   font-family: var(--font);
   font-size: 16px;
   scroll-behavior: smooth;
-  background: var(--gray-light-color);
+  background: var(--gray-dark-color);
   max-width: var(--max-width);
   margin-left: auto;
   margin-right: auto;
@@ -197,4 +197,21 @@ p {
 .rodapie__derechos {
   text-align: center;
   margin: 1rem auto;
+}
+
+@media screen and (max-width:650px){
+  .cabecera{
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .rodapie__nosotros{
+    flex-direction: column;
+    padding-left: 5rem;
+  }
+
+  .rodapie__nosotros--form > input,
+  .rodapie__nosotros--form > textarea{
+    width: 15rem;
+  }
 }

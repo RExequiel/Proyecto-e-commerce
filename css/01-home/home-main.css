@@ -1,6 +1,7 @@
 .banner {
   background: url("../../Assets/banner-image.png");
   background-size: cover;
+  background-repeat: no-repeat;
   height: 15rem;
   display: flex;
   flex-direction: column;
@@ -56,4 +57,8 @@
     margin: 0.2rem;
 }
 
-
+@media screen and (max-width:650px){
+    .container__contenido--todo{
+        margin-bottom: 1rem;
+    }
+}
