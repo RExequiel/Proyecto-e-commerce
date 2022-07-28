@@ -102,7 +102,7 @@ h6 {
 }
 
 img {
-  max-width: 100%;
+  max-width: 170px;
   height: auto;
 }
 
@@ -186,20 +186,20 @@ p {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  color: var(--black-color)
+  color: var(--black-color);
 }
 
 .rodapie__nosotros--form > input,
-.rodapie__nosotros--form > textarea{
+.rodapie__nosotros--form > textarea {
   outline: none;
   margin: 0.2rem 0;
-  padding: .4rem;
+  padding: 0.4rem;
   width: 20rem;
 }
 
 .rodapie__nosotros--form > .btn {
-    width: 10rem;
-    padding: .4rem;
+  width: 10rem;
+  padding: 0.4rem;
 }
 
 .rodapie__derechos {
@@ -207,19 +207,19 @@ p {
   margin: 1rem auto;
 }
 
-@media screen and (max-width:650px){
-  .cabecera{
+@media screen and (max-width: 650px) {
+  .cabecera {
     flex-direction: column;
     justify-content: space-between;
   }
 
-  .rodapie__nosotros{
+  .rodapie__nosotros {
     flex-direction: column;
     padding-left: 5rem;
   }
 
   .rodapie__nosotros--form > input,
-  .rodapie__nosotros--form > textarea{
+  .rodapie__nosotros--form > textarea {
     width: 15rem;
   }
 }

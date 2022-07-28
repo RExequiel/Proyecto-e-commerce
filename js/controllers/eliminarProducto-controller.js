@@ -1,6 +1,7 @@
 import { productoServices } from "../services/products-services.js";
 
-const crearProductoadm = (urlImagen, nombre, precio, id) => {
+const crearProductoadm = (urlImagen, nombre, precio, descripcion, id) => {
+  
   const card = document.createElement("div");
   card.classList.add("container__contenido--todo");
   const contenido = `
@@ -33,7 +34,8 @@ const crearProductoadm = (urlImagen, nombre, precio, id) => {
   card.innerHTML = contenido;
 
   const btn = card.querySelector(".simple-button--delete");
-  btn.addEventListener("click", () => {
+  btn.addEventListener("click", (e) => {
+    e.preventDefault();
     const id = btn.id;
     productoServices
       .eliminarProducto(id)
@@ -41,9 +43,9 @@ const crearProductoadm = (urlImagen, nombre, precio, id) => {
         console.log(respuesta);
         card.classList.toggle('none');
       })
-      .catch((err) => alert("Ocurrió un error"));
+      .catch((err) => alert(`Ocurrió un error${err}`));
   });
-
+  
   return card;
 };
 
@@ -52,9 +54,9 @@ const contentCard = document.querySelector("[data-productos]");
 productoServices
   .listaProductos()
   .then((data) => {
-    data.forEach(({ urlImagen, nombre, precio, id }) => {
-      const nuevacard = crearProductoadm(urlImagen, nombre, precio, id);
+    data.forEach(({ urlImagen, nombre, precio, descripcion, id }) => {
+      const nuevacard = crearProductoadm(urlImagen, nombre, precio, descripcion, id);
       contentCard.appendChild(nuevacard);
     });
   })
-  .catch((error) => alert("Ocurrió un error"));
+  .catch((error) => alert(`Ocurrió un error${error}`));

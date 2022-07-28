@@ -75,7 +75,9 @@
           data-descripcion
           required
         />
-        <button type="submit" class="agregar-producto__btn">Agregar producto</button>
+        <button type="submit" class="agregar-producto__btn">
+          Agregar producto
+        </button>
       </form>
     </main>
     <footer class="rodapie">
@@ -91,7 +93,14 @@
         </ul>
         <form class="rodapie__nosotros--form" action="">
           <strong for="nombre">Hable con nosotros</strong>
-          <input placeholder="Nombre" type="text" name="nombre" id="nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required/>
+          <input
+            placeholder="Nombre"
+            type="text"
+            name="nombre"
+            id="nombre"
+            pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+            required
+          />
           <textarea
             placeholder="Escribe tú mensaje"
             name=""
@@ -107,6 +116,13 @@
         <h4>Desarrollado por &copyExequiel Gerez | 2022</h4>
       </section>
     </footer>
-    <script type='module' src="./js/controllers/agregarProducto-controller.js"></script>
+    <script
+      type="module"
+      src="./js/controllers/agregarProducto-controller.js"
+    ></script>
+    <script
+      type="module"
+      src="./js/controllers/actualizarProducto-controller.js"
+    ></script>
   </body>
 </html>
