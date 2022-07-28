@@ -1,0 +1,46 @@
+{
+  "producto": [
+    {
+      "id": 8,
+      "urlImagen": "./Assets/star-wars-02.png",
+      "nombre": "nombre...",
+      "precio": "$00.00",
+      "descripción": "descripción..."
+    },
+    {
+      "id": 9,
+      "urlImagen": "./Assets/star-wars-03.png",
+      "nombre": "nombre...",
+      "precio": "$00.00",
+      "descripción": "descripción..."
+    },
+    {
+      "id": 10,
+      "urlImagen": "./Assets/star-wars-04.png",
+      "nombre": "nombre...",
+      "precio": "$00.00",
+      "descripción": "descripción..."
+    },
+    {
+      "id": 12,
+      "urlImagen": "./Assets/star-wars-06.png",
+      "nombre": "nombre...",
+      "precio": "$00.00",
+      "descripción": "descripción..."
+    },
+    {
+      "id": 13,
+      "urlImagen": "./Assets/consolas-01.png",
+      "nombre": "nombre...",
+      "precio": "$00.00",
+      "descripción": "descripción..."
+    },
+    {
+      "id": 14,
+      "urlImagen": "./Assets/consolas-02.png",
+      "nombre": "nombre...",
+      "precio": "$00.00",
+      "descripción": "descripción..."
+    }
+  ]
+}

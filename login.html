@@ -21,29 +21,44 @@
   </head>
   <body>
     <header class="cabecera box-shadow-1">
-        <a href="./index.html">
-            <img class="cabecera__logo" src="./Assets/Logo.png" alt="logo">
-        </a>
-        <form class="cabecera__buscador box-shadow-1" action="">
-            <input
-            class="cabecera__buscador--input"
-            type="search"
-            placeholder="¿Qué deseas buscar?"
-            name=""
-            id=""
-            />
-            <input class="cabecera__buscador--btn" type="submit" value="Buscar" />
-        </form>
+      <a href="./index.html">
+        <img class="cabecera__logo" src="./Assets/Logo.png" alt="logo" />
+      </a>
+      <form class="cabecera__buscador box-shadow-1" action="">
+        <input
+          class="cabecera__buscador--input"
+          type="search"
+          placeholder="¿Qué deseas buscar?"
+          name=""
+          id=""
+        />
+        <input class="cabecera__buscador--btn" type="submit" value="Buscar" />
+      </form>
     </header>
     <main>
-        <form class="login">
-            <label class="login__title" for="email"><strong>Iniciar Sesion</strong></label>
-            <input class="login__email" type="email" name="email" id="email" placeholder="Escríba su correo electronico"/>
-            <input class="login__password" type="password" placeholder="Escríba su contraseña"/>
-        </form>
-        <a href="./agregarProducto.html">
-            <button class="login__btn">Entrar</button>
-        </a>
+      <form class="login">
+        <label class="login__title" for="email"
+          ><strong>Iniciar Sesion</strong></label
+        >
+        <input
+          class="login__email"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Escríba su correo electronico"
+          pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+          required
+        />
+        <input
+          class="login__password"
+          type="password"
+          placeholder="Escríba su contraseña"
+          pattern="[a-zA-Z0-9]{6,15}"
+          required
+        />
+          <button type="submit" class="login__btn">Entrar</button>
+      </form>
+      
     </main>
     <footer class="rodapie">
       <section class="rodapie__nosotros box-shadow-1">
@@ -58,15 +73,16 @@
         </ul>
         <form class="rodapie__nosotros--form" action="">
           <strong for="nombre">Hable con nosotros</strong>
-          <input placeholder="Nombre" type="text" name="nombre" id="nombre" />
+          <input placeholder="Nombre" type="text" name="nombre" id="nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required/>
           <textarea
             placeholder="Escribe tú mensaje"
             name=""
             id=""
             cols="21"
             rows="7"
+            required
           ></textarea>
-          <input class="btn" type="button" value="Enviar Mensaje" />
+          <input class="btn" type="submit" value="Enviar Mensaje" />
         </form>
       </section>
       <section class="rodapie__derechos">

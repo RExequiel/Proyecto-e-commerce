@@ -1,0 +1,41 @@
+.contenido__todo--img {
+  padding-top: 1rem;
+}
+
+.table__button-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.table__button-control li:nth-child(1) {
+  margin-right: 3rem;
+}
+
+.table__button-control li:nth-child(2) {
+  margin-right: 1.5rem;
+}
+
+.td {
+  padding: 1rem;
+}
+
+.simple-button {
+  border: none;
+  background-color: unset;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.simple-button--delete {
+  color: var(--info-color);
+}
+
+.simple-button--edit {
+  color: var(--sucess-color);
+}
+
+.none {
+  display: none;
+}

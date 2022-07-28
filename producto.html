@@ -114,11 +114,11 @@
                 <li><a href="#">Quiero ser franquiciado</a></li>
                 <li><a href="#">Anúncie aquí</a></li>
             </ul>
-            <form class="rodapie__nosotros--form" action="">
+            <form class="rodapie__nosotros--form">
                 <strong for="nombre">Hable con nosotros</strong>
-                <input placeholder="Nombre" type="text" name="nombre" id="nombre">
-                <textarea placeholder="Escribe tú mensaje" name="" id="" cols="21" rows="7"></textarea>
-                <input class="btn" type="button" value="Enviar Mensaje">
+                <input placeholder="Nombre" type="text" name="nombre" id="nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                <textarea placeholder="Escribe tú mensaje" name="" id="" cols="21" rows="7" required></textarea>
+                <input class="btn" type="submit" value="Enviar Mensaje">
             </form>
         </section>
         <section class="rodapie__derechos">

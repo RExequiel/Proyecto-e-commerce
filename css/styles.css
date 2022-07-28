@@ -1,5 +1,12 @@
 :root {
   --color-de-fondo: #48e;
+  --color-de-fondo1: #32363e;
+
+  --color-de-fondo2: #61dafb;
+  --font-color: #ffdeb0;
+
+  --info-color: #df2525;
+  --sucess-color: #047900;
 
   --first-color: #effb08;
   --first-alpha-color: rgba(239, 251, 8, 0.75);
@@ -30,7 +37,7 @@ html {
   font-family: var(--font);
   font-size: 16px;
   scroll-behavior: smooth;
-  background: var(--gray-dark-color);
+  background: var(--color-de-fondo1);
   max-width: var(--max-width);
   margin-left: auto;
   margin-right: auto;
@@ -45,7 +52,7 @@ html {
 body {
   margin: 0;
   overflow-x: hidden;
-  color: var(--title-color);
+  color: var(--white-color);
 }
 
 ol,
@@ -55,7 +62,7 @@ li {
 }
 
 a {
-  color: var(--title-color);
+  color: var(--black-color);
   transition: all 0.5s ease-out;
   text-decoration: none;
 }
@@ -104,6 +111,19 @@ p {
 }
 
 .btn {
+  border: 1px solid var(--white-color);
+  padding: 0.5rem;
+  display: inline-block;
+  width: 150px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: var(--white-color);
+  background-color: var(--color-de-fondo1);
+  cursor: pointer;
+}
+
+.btn2 {
   padding: 0.5rem;
   display: inline-block;
   width: 150px;
@@ -115,22 +135,9 @@ p {
   cursor: pointer;
 }
 
-.btn2 {
-  border: var(--white-color);
-  padding: 0.5rem;
-  display: inline-block;
-  width: 150px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  color: var(--color-de-fondo);
-  background-color: var(--white-color);
-  cursor: pointer;
-}
-
 .box-shadow-1 {
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.25);
-  background-color: var(--gray-color);
+  background-color: var(--color-de-fondo2);
   padding: 1rem;
   margin: 0.5rem;
 }
@@ -179,6 +186,7 @@ p {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
+  color: var(--black-color)
 }
 
 .rodapie__nosotros--form > input,
