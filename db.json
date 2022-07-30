@@ -1,11 +1,77 @@
 {
   "producto": [
     {
+      "urlImagen": "./Assets/diversos-01.png",
+      "nombre": "prueba",
+      "precio": "$909",
+      "id": 1
+    },
+    {
+      "urlImagen": "./Assets/diversos-02.png",
+      "nombre": "prueba",
+      "precio": "$909",
+      "id": 2
+    },
+    {
+      "urlImagen": "./Assets/diversos-03.png",
+      "nombre": "prueba",
+      "precio": "$909",
+      "id": 3
+    },
+    {
+      "urlImagen": "./Assets/diversos-03.png",
+      "nombre": "prueba",
+      "precio": "$909",
+      "id": 4
+    },
+    {
       "urlImagen": "./Assets/diversos-05.png",
       "nombre": "prueba",
       "precio": "$909",
-      "descripcion": "descripcion",
+      "id": 5
+    },
+    {
+      "urlImagen": "./Assets/diversos-06.png",
+      "nombre": "prueba",
+      "precio": "$909",
+      "id": 6
+    },
+    
+    {
+      "urlImagen": "./Assets/consolas-01.png",
+      "nombre": "prueba",
+      "precio": "$909",
+      "id": 12
+    },
+    {
+      "urlImagen": "./Assets/consolas-02.png",
+      "nombre": "prueba",
+      "precio": "$909",
+      "id": 13
+    },
+    {
+      "urlImagen": "./Assets/consolas-03.png",
+      "nombre": "prueba",
+      "precio": "$909",
+      "id": 14
+    },
+    {
+      "urlImagen": "./Assets/consolas-04.png",
+      "nombre": "prueba",
+      "precio": "$909",
+      "id": 15
+    },
+    {
+      "urlImagen": "./Assets/consolas-05.png",
+      "nombre": "prueba",
+      "precio": "$909",
       "id": 16
+    },
+    {
+      "urlImagen": "./Assets/consolas-06.png",
+      "nombre": "prueba",
+      "precio": "$909",
+      "id": 17
     }
   ]
 }

@@ -5,15 +5,6 @@
     margin: 1rem 1.5rem;
 }
 
-.producto__img{
-    background-image: url('../../Assets/consolas-01.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 50%;
-    height: 25rem;
-    box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.25);
-}
-
 .producto__caracteristica{
     width: 50%;
     display: flex;

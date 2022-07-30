@@ -3,17 +3,11 @@
 }
 
 .table__button-control {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  text-align: center;
 }
 
-.table__button-control li:nth-child(1) {
-  margin-right: 3rem;
-}
-
-.table__button-control li:nth-child(2) {
-  margin-right: 1.5rem;
+.table__button-control li{
+  margin-right: 2rem;
 }
 
 .td {
@@ -21,21 +15,15 @@
 }
 
 .simple-button {
-  border: none;
-  background-color: unset;
+  background-color: var(--color-de-fondo2);
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: bold;
+  padding: .5rem 2rem;
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.25);
 }
 
 .simple-button--delete {
   color: var(--info-color);
 }
 
-.simple-button--edit {
-  color: var(--sucess-color);
-}
-
-.none {
-  display: none;
-}

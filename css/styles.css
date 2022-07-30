@@ -110,6 +110,11 @@ p {
   line-height: 1.6;
 }
 
+
+.none{
+  display: none;
+}
+
 .btn {
   border: 1px solid var(--white-color);
   padding: 0.5rem;
@@ -155,12 +160,10 @@ p {
 
 .cabecera__buscador--input {
   outline: none;
+  padding: .3rem 1rem;
 }
 
-.cabecera__buscador--btn {
-  background-color: var(--gray-color);
-  cursor: pointer;
-}
+
 
 /****************footer**************/
 
