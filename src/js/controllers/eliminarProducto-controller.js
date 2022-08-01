@@ -2,7 +2,6 @@ import { productoServices } from "../services/products-services.js";
 
 const crearProductoadm = (urlImagen, nombre, precio, id) => {
   const card = document.createElement("div");
-  card.classList.add("container__contenido--todo");
   const contenido = `
       <div class="todo__descripcion--card">
         <img
@@ -14,6 +13,15 @@ const crearProductoadm = (urlImagen, nombre, precio, id) => {
       </div>
       <td>
         <ul class="table__button-control">
+          <li>
+            <a
+            href="./agregarProducto.html?id=${id}"
+            class="simple-button simple-button--edit"
+            >
+            Editar
+            </a>
+          </li>
+          <br>
           <li>
             <button class="simple-button simple-button--delete" type="button" id="${id}">
               Eliminar
@@ -34,7 +42,7 @@ const crearProductoadm = (urlImagen, nombre, precio, id) => {
         console.log(respuesta);
         card.classList.toggle("none");
       })
-      .catch((err) => alert(`Ocurrió un error${err}`));
+      .catch((err) => console.log(`Ocurrió un error${err}`));
   });
 
   return card;
@@ -55,4 +63,4 @@ productoServices
       contentCard.appendChild(nuevacard);
     });
   })
-  .catch((error) => alert(`Ocurrió un error${error}`));
+  .catch((error) => console.log(`Ocurrió un error${error}`));

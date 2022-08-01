@@ -27,7 +27,7 @@ productoServices
       contentCard.appendChild(nuevacard);
     });
   })
-  .catch((error) => alert("Ocurrió un error"));
+  .catch((error) => console.log("Ocurrió un error"));
 
 
 

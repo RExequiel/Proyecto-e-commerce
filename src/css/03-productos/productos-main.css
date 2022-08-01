@@ -27,3 +27,7 @@
   color: var(--info-color);
 }
 
+.simple-button--edit {
+  color: var(--sucess-color);
+}
+

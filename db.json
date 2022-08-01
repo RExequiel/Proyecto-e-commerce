@@ -1,77 +1,112 @@
 {
-  "producto": [
-    {
-      "urlImagen": "./Assets/diversos-01.png",
-      "nombre": "prueba",
-      "precio": "$909",
-      "id": 1
-    },
-    {
-      "urlImagen": "./Assets/diversos-02.png",
-      "nombre": "prueba",
-      "precio": "$909",
-      "id": 2
-    },
-    {
-      "urlImagen": "./Assets/diversos-03.png",
-      "nombre": "prueba",
-      "precio": "$909",
-      "id": 3
-    },
-    {
-      "urlImagen": "./Assets/diversos-03.png",
-      "nombre": "prueba",
-      "precio": "$909",
-      "id": 4
-    },
-    {
-      "urlImagen": "./Assets/diversos-05.png",
-      "nombre": "prueba",
-      "precio": "$909",
-      "id": 5
-    },
-    {
-      "urlImagen": "./Assets/diversos-06.png",
-      "nombre": "prueba",
-      "precio": "$909",
-      "id": 6
-    },
-    
-    {
-      "urlImagen": "./Assets/consolas-01.png",
-      "nombre": "prueba",
-      "precio": "$909",
-      "id": 12
-    },
-    {
-      "urlImagen": "./Assets/consolas-02.png",
-      "nombre": "prueba",
-      "precio": "$909",
-      "id": 13
-    },
-    {
-      "urlImagen": "./Assets/consolas-03.png",
-      "nombre": "prueba",
-      "precio": "$909",
-      "id": 14
-    },
-    {
-      "urlImagen": "./Assets/consolas-04.png",
-      "nombre": "prueba",
-      "precio": "$909",
-      "id": 15
-    },
-    {
-      "urlImagen": "./Assets/consolas-05.png",
-      "nombre": "prueba",
-      "precio": "$909",
-      "id": 16
-    },
-    {
-      "urlImagen": "./Assets/consolas-06.png",
-      "nombre": "prueba",
-      "precio": "$909",
-      "id": 17
-    }
-  ]
+    "producto": [
+      {
+        "urlImagen": "./Assets/diversos-01.png",
+        "nombre": "ProductoA",
+        "precio": "$200",
+        "id": 1
+      },
+      {
+        "urlImagen": "./Assets/diversos-01.png",
+        "nombre": "ProductoB",
+        "precio": "$200",
+        "id": 2
+      },
+      {
+        "urlImagen": "./Assets/diversos-01.png",
+        "nombre": "ProductoC",
+        "precio": "$200",
+        "id": 3
+      },
+      {
+        "urlImagen": "./Assets/diversos-01.png",
+        "nombre": "ProductoD",
+        "precio": "$200",
+        "id": 4
+      },
+      {
+        "urlImagen": "./Assets/diversos-01.png",
+        "nombre": "ProductoE",
+        "precio": "$200",
+        "id": 5
+      },
+      {
+        "urlImagen": "./Assets/diversos-01.png",
+        "nombre": "ProductoF",
+        "precio": "$200",
+        "id": 6
+      },
+      {
+        "urlImagen": "./Assets/star-wars-01.png",
+        "nombre": "ProductoG",
+        "precio": "$200",
+        "id": 7
+      },
+      {
+        "urlImagen": "./Assets/star-wars-02.png",
+        "nombre": "ProductoH",
+        "precio": "$200",
+        "id": 8
+      },
+      {
+        "urlImagen": "./Assets/star-wars-03.png",
+        "nombre": "ProductoI",
+        "precio": "$200",
+        "id": 9
+      },
+      {
+        "urlImagen": "./Assets/star-wars-04.png",
+        "nombre": "ProductoJ",
+        "precio": "$200",
+        "id": 10
+      },
+      {
+        "urlImagen": "./Assets/star-wars-05.png",
+        "nombre": "ProductoK",
+        "precio": "$200",
+        "id": 11
+      },
+      {
+        "urlImagen": "./Assets/star-wars-06.png",
+        "nombre": "ProductoL",
+        "precio": "$200",
+        "id": 12
+      },
+      {
+        "urlImagen": "./Assets/consolas-01.png",
+        "nombre": "ProductoM",
+        "precio": "$200",
+        "id": 13
+      },
+      {
+        "urlImagen": "./Assets/consolas-02.png",
+        "nombre": "ProductoN",
+        "precio": "$200",
+        "id": 14
+      },
+      {
+        "urlImagen": "./Assets/consolas-03.png",
+        "nombre": "ProductoÑ",
+        "precio": "$200",
+        "id": 15
+      },
+      {
+        "urlImagen": "./Assets/consolas-04.png",
+        "nombre": "ProductoO",
+        "precio": "$200",
+        "id": 16
+      },
+      {
+        "urlImagen": "./Assets/consolas-05.png",
+        "nombre": "ProductoP",
+        "precio": "$200",
+        "id": 17
+      },
+      {
+        "urlImagen": "./Assets/consolas-06.png",
+        "nombre": "ProductoQ",
+        "precio": "$200",
+        "id": 18
+      }
+    ]
 }
