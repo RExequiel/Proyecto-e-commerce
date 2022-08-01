@@ -39,6 +39,6 @@ formulario.addEventListener("submit", (evento) => {
   const nombre = document.querySelector("[data-nombre]").value;
   const precio = document.querySelector("[data-precio]").value;
   productoServices.actualizarProducto(urlImagen, nombre, precio, id).then(() => {
-    window.location.href='/productos.html'
+    window.location.href='/productos.html';
   });
 });
