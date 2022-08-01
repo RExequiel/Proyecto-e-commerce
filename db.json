@@ -119,6 +119,12 @@
       "nombre": "ProductoEditado",
       "precio": "$200",
       "id": 20
+    },
+    {
+      "urlImagen": "./Assets/star-wars-06.png",
+      "nombre": "ProductoNuevo",
+      "precio": "$900",
+      "id": 21
     }
   ]
 }
