@@ -22,6 +22,13 @@ json-server --watch db.json
 
 ---
 
+## Datos de login
+
+#### Correo: admin@email.com
+#### Contraseña: administrador
+
+---
+
 ![Vista Home](Assets/e-ecommerce.png)
 
 ---
