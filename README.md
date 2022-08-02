@@ -1,4 +1,4 @@
-# Proyecto e-ecommerce 🧑‍🔧
+# Proyecto e-commerce 🧑‍🔧
 
 Este Proyecto nos permite gestionar nuestros productos como Administrador del e-commerce y el uso/consumo de una api en la cual se almacenan los productos del e-commerce, En el cual me permitio realizar un CRUD de los productos. Ademas de poder filtrar productos por medio de busqueda.
 
